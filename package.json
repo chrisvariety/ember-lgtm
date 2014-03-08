@@ -1,7 +1,7 @@
 {
   "name": "ember-lgtm",
   "description": "ember.js wrapper around LGTM.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "author": "Chris McC",
   "license": "MIT",

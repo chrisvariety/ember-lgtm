@@ -3,7 +3,7 @@ define("ember-lgtm",
   function(__exports__) {
     "use strict";
     __exports__["default"] = function(validator, validatee) {
-      new Ember.RSVP.Promise(function(resolve, reject) {
+      return new Ember.RSVP.Promise(function(resolve, reject) {
         validator.build().validate(validatee).then(function(validationResult) {
           if (validationResult.valid) {
             resolve();
