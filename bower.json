@@ -1,0 +1,30 @@
+{
+  "name": "ember-lgtm",
+  "version": "1.0.1",
+  "description": "ember.js wrapper around LGTM.",
+  "main": [ "main.js" ],
+  "dependencies": {
+    "lgtm": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/speedmanly/ember-lgtm.git"
+  },
+  "keywords": [
+    "lgtm",
+    "ember",
+    "emberjs"
+  ],
+  "author": "Chris McC",
+  "license": "MIT",
+  "ignore": [
+    "bower_components",
+    "bower.json",
+    "Gulpfile.js",
+    "package.json",
+    "test",
+    "lib",
+    "node_modules",
+    "Makefile"
+  ]
+}
