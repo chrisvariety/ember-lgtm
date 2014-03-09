@@ -1,6 +1,6 @@
 {
   "name": "ember-lgtm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ember.js wrapper around LGTM.",
   "main": [ "main.js" ],
   "dependencies": {

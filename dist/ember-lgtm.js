@@ -6,7 +6,7 @@ define("ember-lgtm",
       return new Ember.RSVP.Promise(function(resolve, reject) {
         validator.build().validate(validatee).then(function(validationResult) {
           if (validationResult.valid) {
-            resolve();
+            resolve({valid: true});
           } else {
             var key, errors = [];
             for (key in validationResult.errors) {
@@ -14,7 +14,7 @@ define("ember-lgtm",
                 errors = errors.concat(validationResult.errors[key]);
               }
             }
-            reject({status: 426, errors: errors});
+            reject({valid: false, errors: errors});
           }
         });
       });
